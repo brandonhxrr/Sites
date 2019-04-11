@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Acerca"
+        android:title="@string/menu_about" />
+
+    <item
+        android:id="@+id/Settings"
+        android:title="@string/menu_settings" />
+
+    <item
+        android:id="@+id/Contacto"
+        android:title="@string/menu_contact" />
+
+    <item
+        android:id="@+id/Cerrar"
+        android:title="@string/menu_log_out" />
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        <item
+            android:id="@+id/Nav_Add"
+            android:icon="@mipmap/ic_add"
+            android:title="@string/empty" />-->
+    <item
+        android:id="@+id/Nav_Home"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/Nav_Search"
+        android:icon="@drawable/ic_search"
+        android:title="Buscar" />
+
+        <item
+            android:id="@+id/Nav_User"
+            android:icon="@drawable/ic_maps"
+            android:title="Cerca de mí" />
+
+        <item
+            android:id="@+id/Nav_Notify"
+            android:icon="@drawable/ic_ibookmark"
+            android:title="Guardados" />
+
+    </menu>

@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+        <item name="android:colorForeground">@color/colorBlack</item>
+        <item name="android:statusBarColor">@color/colorWhite</item>
+        <item name="fontFamily">@font/sansbold</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="CustomButton" parent="Base.TextAppearance.AppCompat.Widget.Button.Colored">
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/sansbold</item>
+        <item name="android:background">@drawable/ic_button</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="RatingStyle" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlNormal">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+        <item name="android:fillColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextIns" parent="Theme.AppCompat.Light">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="NormalText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorGrey3</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+</resources>
